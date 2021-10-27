@@ -1,0 +1,31 @@
+html {
+    background-color: hsl(323, 41%, 62%);
+    text-align: center;
+    color: #E6E6E6 ;
+  }
+.search_letters, .search_words, .search_sentences, .count, .letter_index, .word_index, .sentence_index {
+	border: none;
+	background: #c576a7;
+	color: #E6E6E6;
+	padding: 10px 20px;
+	outline: none;
+	font-family: Helvetica;
+	cursor: pointer;
+	border-style: solid;
+	border-color:#961f72;
+}
+
+.search_letters:hover, .search_words:hover, .search_sentences:hover .count:hover, .letter_index:hover, .word_index:hover, .sentence_index:hover {
+	background-color: #E6E6E6;
+	color: #961f72;
+
+}
+p, h3{
+    color:#E6E6E6 ;
+    font-size: medium;
+    font-family: Helvetica;
+}
+img{
+	width: 350px;
+    height: auto;
+}
